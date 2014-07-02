@@ -1,0 +1,29 @@
+@CHARSET "UTF-8";
+
+
+.CSSTableGenerator {
+	margin:0px;padding:0px;
+	width:30%;
+	border:1px solid #bcadad;
+
+}.CSSTableGenerator table{
+    border-collapse: collapse;
+        border-spacing: 0;
+	width:100%;
+	height:100%;
+	margin:0px;padding:0px;
+}
+.CSSTableGenerator tr:nth-child(odd){ background-color:#ffaa56; }
+.CSSTableGenerator tr:nth-child(even)    { background-color:#ffffff; }.CSSTableGenerator td{
+	vertical-align:middle;
+	
+	
+	border:1px solid #bcadad;
+	border-width:0px 1px 1px 0px;
+	text-align:center;
+	padding:6px;
+	font-size:12px;
+	font-family:Arial;
+	font-weight:normal;
+	color:#000000;
+}
