@@ -14,7 +14,7 @@ public class Person extends BaseEntity implements Serializable{
 
 	/**
 	 * 
-	 */
+	 */   
 	private static final long serialVersionUID = 5991359271454398200L;
 	private String name;
 	

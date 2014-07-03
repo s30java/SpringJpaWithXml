@@ -7,7 +7,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
-
 import com.asai.jpa.facade.AbstractFacade;
 import com.asai.jpa.modal.Person;
 import com.asai.jpa.repositories.Personrepository;
@@ -33,7 +32,6 @@ public class PersonServiceImpl extends AbstractFacade<Person> implements IPerson
 	@Autowired
 	Personrepository personRepo;
 	
-	@Override
 	public void save(Person person) {
 
 		personRepo.save(person);

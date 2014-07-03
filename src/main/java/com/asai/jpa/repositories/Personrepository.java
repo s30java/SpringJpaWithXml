@@ -9,6 +9,9 @@ import org.springframework.data.repository.query.Param;
 
 import com.asai.jpa.modal.Person;
 
+
+
+
 public interface Personrepository extends JpaRepository<Person, Integer> {
 
 	/**
@@ -19,3 +22,4 @@ public interface Personrepository extends JpaRepository<Person, Integer> {
     public List<Person> findByName(@Param("name") String Name);
 
 }
+

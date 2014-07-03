@@ -5,6 +5,7 @@ import com.asai.jpa.facade.AbstractFacade;
 import com.asai.jpa.modal.Person;
 
 
+
 @Repository
 public class PersonFacade extends AbstractFacade<Person> {
 

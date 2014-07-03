@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
-
 import com.asai.jpa.modal.Person;
 import com.asai.jpa.service.IPersonService;
 
@@ -18,7 +17,6 @@ import com.asai.jpa.service.IPersonService;
 @Controller
 public class HomeController {
 
-	
 
 	@Autowired
 	private IPersonService personRepo;
@@ -31,7 +29,7 @@ public class HomeController {
 		
 		//model.addAttribute("persons", personRepo.findAll());
 		
-		System.out.println("IS Person name not present ::: "+personRepo.findByName("greater").isEmpty());
+		System.out.println("IS Person name not present ver 2.0::: "+personRepo.findByName("greater").isEmpty());
 		
 	    return new ModelAndView("home","person",new Person());
 	}

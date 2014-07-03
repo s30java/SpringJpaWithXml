@@ -6,6 +6,7 @@ import org.springframework.data.jpa.repository.Query;
 
 import com.asai.jpa.modal.Person;
 
+
 public interface IPersonService  {
 
 	 public void save(Person person);
